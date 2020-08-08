@@ -8,6 +8,9 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/aeonax/ANXCamera/proprietary/system/lib,$(TARGET_COPY_OUT_SYSTEM)/lib) \
     $(call find-copy-subdir-files,*,vendor/aeonax/ANXCamera/proprietary/system/lib64,$(TARGET_COPY_OUT_SYSTEM)/lib64) \
     $(call find-copy-subdir-files,*,vendor/aeonax/ANXCamera/proprietary/system/priv-app/ANXScanner/lib,$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXScanner/lib) \
+    $(call find-copy-subdir-files,*,vendor/aeonax/ANXCamera/proprietary/vendor/bin,$(TARGET_COPY_OUT_VENDOR)/bin) \
+    $(call find-copy-subdir-files,*,vendor/aeonax/ANXCamera/proprietary/vendor/etc,$(TARGET_COPY_OUT_VENDOR)/etc) \
+    $(call find-copy-subdir-files,*,vendor/aeonax/ANXCamera/proprietary/vendor/lib,$(TARGET_COPY_OUT_VENDOR)/lib) \
     $(call find-copy-subdir-files,*,vendor/aeonax/ANXCamera/proprietary/vendor/lib64,$(TARGET_COPY_OUT_VENDOR)/lib64)
 
 PRODUCT_PACKAGES += \
